@@ -1,0 +1,93 @@
+{
+  "lockfile-version": 0,
+  "manifest": {
+    "hook": {},
+    "install": {
+      "httpie": {
+        "pkg-path": "httpie"
+      }
+    },
+    "options": {
+      "systems": [
+        "aarch64-darwin"
+      ]
+    },
+    "registry": {
+      "defaults": {
+        "subtrees": null
+      },
+      "inputs": {
+        "nixpkgs": {
+          "from": {
+            "owner": "NixOS",
+            "ref": "release-23.11",
+            "repo": "nixpkgs",
+            "type": "github"
+          },
+          "subtrees": [
+            "legacyPackages"
+          ]
+        }
+      },
+      "priority": [
+        "nixpkgs"
+      ]
+    },
+    "vars": {}
+  },
+  "packages": {
+    "aarch64-darwin": {
+      "httpie": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "httpie"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A command line HTTP client whose goal is to make CLI human-friendly",
+          "license": "BSD-3-Clause",
+          "pname": "httpie",
+          "unfree": false,
+          "version": "3.2.2"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1711252709,
+            "narHash": "sha256-Jf2eiR89amzroUdBqOprFJFgfiFukvOwdDAdwbFzRLk=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "f389216cf54c95d8071cb98a36ccf8f94485e585",
+            "type": "github"
+          },
+          "fingerprint": "84bbf81c80f36f8f9a23a7d282645184b3ca8aa8f20198d65add91515f022825",
+          "url": "github:NixOS/nixpkgs/f389216cf54c95d8071cb98a36ccf8f94485e585"
+        },
+        "priority": 5
+      }
+    }
+  },
+  "registry": {
+    "defaults": {
+      "subtrees": null
+    },
+    "inputs": {
+      "nixpkgs": {
+        "from": {
+          "lastModified": 1711252709,
+          "narHash": "sha256-Jf2eiR89amzroUdBqOprFJFgfiFukvOwdDAdwbFzRLk=",
+          "owner": "NixOS",
+          "repo": "nixpkgs",
+          "rev": "f389216cf54c95d8071cb98a36ccf8f94485e585",
+          "type": "github"
+        },
+        "subtrees": [
+          "legacyPackages"
+        ]
+      }
+    },
+    "priority": [
+      "nixpkgs"
+    ]
+  }
+}
