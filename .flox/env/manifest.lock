@@ -3,8 +3,14 @@
   "manifest": {
     "hook": {},
     "install": {
+      "fx": {
+        "pkg-path": "fx"
+      },
       "httpie": {
         "pkg-path": "httpie"
+      },
+      "jq": {
+        "pkg-path": "jq"
       }
     },
     "options": {
@@ -37,6 +43,34 @@
   },
   "packages": {
     "aarch64-darwin": {
+      "fx": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "fx"
+        ],
+        "info": {
+          "broken": false,
+          "description": "Terminal JSON viewer",
+          "license": "MIT",
+          "pname": "fx",
+          "unfree": false,
+          "version": "31.0.0"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1711252709,
+            "narHash": "sha256-Jf2eiR89amzroUdBqOprFJFgfiFukvOwdDAdwbFzRLk=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "f389216cf54c95d8071cb98a36ccf8f94485e585",
+            "type": "github"
+          },
+          "fingerprint": "84bbf81c80f36f8f9a23a7d282645184b3ca8aa8f20198d65add91515f022825",
+          "url": "github:NixOS/nixpkgs/f389216cf54c95d8071cb98a36ccf8f94485e585"
+        },
+        "priority": 5
+      },
       "httpie": {
         "attr-path": [
           "legacyPackages",
@@ -50,6 +84,34 @@
           "pname": "httpie",
           "unfree": false,
           "version": "3.2.2"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1711252709,
+            "narHash": "sha256-Jf2eiR89amzroUdBqOprFJFgfiFukvOwdDAdwbFzRLk=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "f389216cf54c95d8071cb98a36ccf8f94485e585",
+            "type": "github"
+          },
+          "fingerprint": "84bbf81c80f36f8f9a23a7d282645184b3ca8aa8f20198d65add91515f022825",
+          "url": "github:NixOS/nixpkgs/f389216cf54c95d8071cb98a36ccf8f94485e585"
+        },
+        "priority": 5
+      },
+      "jq": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-darwin",
+          "jq"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A lightweight and flexible command-line JSON processor",
+          "license": "MIT",
+          "pname": "jq",
+          "unfree": false,
+          "version": "1.7.1"
         },
         "input": {
           "attrs": {

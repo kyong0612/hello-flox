@@ -9,6 +9,8 @@
 
 [install]
 httpie.pkg-path = "httpie"
+fx.pkg-path = "fx"
+jq.pkg-path = "jq"
 # hello.pkg-path = "hello"
 # nodejs = { version = "^18.4.2", pkg-path = "nodejs_18" }
 
